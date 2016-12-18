@@ -1,1 +1,9 @@
 // comment
+ while ($row = $result->fetch_array(MYSQLI_NUM))
+                {
+                    foreach($row as $donn=>$d)
+                    {
+                        echo $d."-";
+                    }
+                   echo "<hr />";
+                }
